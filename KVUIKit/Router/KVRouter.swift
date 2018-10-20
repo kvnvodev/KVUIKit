@@ -8,10 +8,10 @@
 
 import UIKit
 
-class KVRouter: NSObject {
+public class KVRouter: NSObject {
 
 }
 
-func KVNavigate(to page: String) {
+public func KVNavigate(to page: String) {
     print("KVNavigate to: \(page)")
 }
